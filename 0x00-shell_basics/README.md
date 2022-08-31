@@ -3,3 +3,4 @@ ls: To display the content list of my current directory
 cd ~: TO change the working directory to user home directory
 ls -l: To display current directory content in long format
 ls -al: To display current directory content, including hideen files in long format
+ls -lna: To display current directory content with user and group ID in numerical form and hidden file in long format
