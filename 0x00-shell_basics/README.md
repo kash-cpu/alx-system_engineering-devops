@@ -12,3 +12,4 @@ cd ..: To change working directory to the previous one
 ls -al. ..: To list files to the boot path
 file: To check file type
 ln -s: TO ceeate a link to a file path
+cp: To copy files
