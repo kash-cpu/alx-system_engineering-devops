@@ -9,3 +9,4 @@ mv: To move file from one directory to another
 rm: To delete a file from a directory
 rm: To remove file from a directory
 cd ..: To change working directory to the previous one
+ls -al. ..: To list files to the boot path
