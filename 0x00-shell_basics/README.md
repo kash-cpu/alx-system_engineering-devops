@@ -7,3 +7,4 @@ ls -lna: To display current directory content with user and group ID in numerica
 mkdir /tmp/my_first_directory: To make directory
 mv: To move file from one directory to another
 rm: To delete a file from a directory
+rm: To remove file from a directory
