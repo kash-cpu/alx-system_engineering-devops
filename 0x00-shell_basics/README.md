@@ -16,3 +16,4 @@ cp: To copy files
 mv: to move files
 rm *~: To delete all files that ends with ~ in current working directory
 mkdir: To make i directory
+ls: to list files seperated by comma
