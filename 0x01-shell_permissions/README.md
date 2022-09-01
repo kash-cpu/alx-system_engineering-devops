@@ -12,3 +12,4 @@ chmod: To reference a file
 chmod: To grant permission to sub directories
 chmod: To make directory and assign permission
 chgrp: To change group ownership of file
+chown: to change permission for owners and group
