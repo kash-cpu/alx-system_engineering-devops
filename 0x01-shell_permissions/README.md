@@ -7,3 +7,4 @@ chmod: To grant access to user
 chmod: To add execution and read permit
 chmod: To grant execution to all
 chmod: To grant permission to only others
+chmod: to set permission
