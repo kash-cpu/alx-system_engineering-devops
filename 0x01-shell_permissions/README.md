@@ -9,3 +9,4 @@ chmod: To grant execution to all
 chmod: To grant permission to only others
 chmod: to set permission
 chmod: To reference a file
+chmod: To grant permission to sub directories
