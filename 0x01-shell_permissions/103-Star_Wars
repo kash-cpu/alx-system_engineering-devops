@@ -1,2 +1,2 @@
 #!/bin/bash
-display 103startwars
+telnet towel.blinkenlights.nl
