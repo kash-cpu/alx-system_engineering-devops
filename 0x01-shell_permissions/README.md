@@ -10,3 +10,4 @@ chmod: To grant permission to only others
 chmod: to set permission
 chmod: To reference a file
 chmod: To grant permission to sub directories
+chmod: To make directory and assign permission
