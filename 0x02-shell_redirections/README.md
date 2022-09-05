@@ -14,3 +14,4 @@ To print recent files in a directry
 To print and sort uniquely
 To display line containing root
 To count a patern in a file
+ To display 3 lines after root partern
