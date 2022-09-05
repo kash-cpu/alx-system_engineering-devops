@@ -12,3 +12,4 @@ to delete a file
 To count directories
 To print recent files in a directry
 To print and sort uniquely
+To display line containing root
