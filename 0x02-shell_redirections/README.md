@@ -16,3 +16,4 @@ To display line containing root
 To count a patern in a file
  To display 3 lines after root partern
 To print lines in a file
+To print lines of a file starting with a letter
