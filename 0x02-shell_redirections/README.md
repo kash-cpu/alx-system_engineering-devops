@@ -9,3 +9,4 @@ Created a file named '\*\'Best School\'\*$\?\*\*\*\*\*:)'
 writing an output into a file
 To duplicate the last line of a file
 to delete a file
+To count directories
