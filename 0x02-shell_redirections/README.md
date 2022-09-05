@@ -19,3 +19,4 @@ To print lines in a file
 To print lines of a file starting with a letter
 Replace all characters A and c from input to Z and e respectively
 TO Create a script that removes all letters c and C from input
+To Write a script that reverse its input
