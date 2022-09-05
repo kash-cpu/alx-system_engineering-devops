@@ -15,3 +15,4 @@ To print and sort uniquely
 To display line containing root
 To count a patern in a file
  To display 3 lines after root partern
+To print lines in a file
