@@ -7,3 +7,4 @@ Printing all local variables
 Creating variable
 creating a new global variable
 addition
+Devision
