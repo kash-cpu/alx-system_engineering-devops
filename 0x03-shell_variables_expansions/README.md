@@ -4,3 +4,4 @@ creating action path
 count the number of directories in path
 Printing environmental variables
 Printing all local variables
+Creating variable
