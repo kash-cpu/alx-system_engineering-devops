@@ -10,3 +10,4 @@ addition
 Devision
 To power of
 Base convertion
+printing possible combinations of two letters
