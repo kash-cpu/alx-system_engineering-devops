@@ -6,3 +6,4 @@ Printing environmental variables
 Printing all local variables
 Creating variable
 creating a new global variable
+addition
