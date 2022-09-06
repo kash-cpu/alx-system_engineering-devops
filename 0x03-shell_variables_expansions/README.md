@@ -11,3 +11,4 @@ Devision
 To power of
 Base convertion
 printing possible combinations of two letters
+printing floating numbers
