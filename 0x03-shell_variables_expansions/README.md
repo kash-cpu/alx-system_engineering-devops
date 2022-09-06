@@ -9,3 +9,4 @@ creating a new global variable
 addition
 Devision
 To power of
+Base convertion
