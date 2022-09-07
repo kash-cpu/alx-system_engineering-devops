@@ -13,3 +13,4 @@ Base convertion
 printing possible combinations of two letters
 printing floating numbers
 Decimal conversion
+Printing of input starting from the first line
