@@ -1,5 +1,25 @@
-# Installs an Nginx server
-exec {'install':
-  provider => shell,
-  command  => 'sudo apt-get -y update ; sudo apt-get -y install nginx ; echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html ; sudo sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https://www.nginx.com/products/nginx-management-suite/ permanent;/" /etc/nginx/sites-available/default ; sudo service nginx start',
+# File:   7-puppet_install_nginx_web_server.pp
+# Author: Alex Orland Arévalo Tribaldos
+# email:  <3915@holbertonschool.com>
+
+# Using Puppet| Install Nginx server, setup and configuration
+
+package { 'nginx':
+  ensure => 'installed'
+}
+
+file { '/var/www/html/index.html':
+  content => 'Hello World',
+}
+
+file_line { 'redirection-301':
+  ensure => 'present',
+  path   => '/etc/nginx/sites-available/default',
+  after  => 'listen 80 default_server;',
+  line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
+}
+
+service { 'nginx':
+  ensure  => running,
+  require => Package['nginx'],
 }
