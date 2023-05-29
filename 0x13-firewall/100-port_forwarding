@@ -7,13 +7,10 @@
 #   ufw-before-output
 #   ufw-before-forward
 #
-
-## Section added to allow port 80 to forward to 8080
 *nat
-:PREROUTING ACCEPT [0:0]
+ PREROUTING ACCEPT [0:0]
 -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
 COMMIT
-# end of added section
 
 # Don't delete these required lines, otherwise there will be errors
 *filter
@@ -62,21 +59,4 @@ COMMIT
 
 # if MULTICAST, RETURN
 -A ufw-not-local -m addrtype --dst-type MULTICAST -j RETURN
-
-# if BROADCAST, RETURN
--A ufw-not-local -m addrtype --dst-type BROADCAST -j RETURN
-
-# all other non-local packets are dropped
--A ufw-not-local -m limit --limit 3/min --limit-burst 10 -j ufw-logging-deny
--A ufw-not-local -j DROP
-
-# allow MULTICAST mDNS for service discovery (be sure the MULTICAST line above
-# is uncommented)
--A ufw-before-input -p udp -d 52.91.149.165 --dport 5353 -j ACCEPT
-
-# allow MULTICAST UPnP for service discovery (be sure the MULTICAST line above
-# is uncommented)
--A ufw-before-input -p udp -d 100.26.237.89 --dport 1900 -j ACCEPT
-
-# don't delete the 'COMMIT' line or these rules won't be processed
-COMMIT
+"/etc/ufw/before.rules" 79L, 2634C 
