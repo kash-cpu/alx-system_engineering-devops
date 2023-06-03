@@ -1,4 +1,3 @@
-cat > signature.key
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.6
 Comment: Hostname: pgp.mit.edu
@@ -49,7 +48,6 @@ sTSKHe+QnnnoFmu4gnmDU31i
 =Xqbo
 -----END PGP PUBLIC KEY BLOCK-----
 
-sudo apt-key add mysql.key
 sudo sh -c 'echo "deb http://repo.mysql.com/apt/ubuntu bionic mysql-5.7" >> /etc/apt/sources.list.d/mysql.list'
 sudo apt-get update
 sudo apt-get install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7* -y
