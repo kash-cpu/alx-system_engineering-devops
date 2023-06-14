@@ -31,5 +31,7 @@ Lessons Learned:
 1. Rigorous configuration management is essential: Proper review and testing of configurations before deployment are crucial to prevent misconfigurations that can lead to service disruptions.
 2. Testing should cover all critical aspects: Test procedures should encompass not only functional requirements but also network connectivity and expected responses to detect potential issues.
 3. Prompt communication with users: Regular and transparent communication with affected users during incidents helps manage expectations and keep them informed about the progress and resolution.
-
+4. 
 Overall, this incident provided valuable insights into the importance of thorough testing, configuration management, and effective communication. The prompt identification and resolution of the misconfiguration allowed me to minimize the impact.
+
+![184c9a11baf02fb2733c0ff5369b02ec](https://github.com/kash-cpu/alx-system_engineering-devops/assets/71116585/9ad76521-43db-4282-a55a-b8c3fcb2216c)
